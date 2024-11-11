@@ -1,0 +1,42 @@
+/* Estilos personalizados para la interfaz */
+body {
+    background-color: #f8f9fa;
+}
+
+.video-container {
+    display: flex;                 /* Utiliza flexbox */
+    flex-direction: column;       /* Organiza los elementos en columna */
+    align-items: center;          /* Centra horizontalmente */
+    justify-content: center;      /* Centra verticalmente si hay suficiente espacio */
+    margin-top: 20px;            /* Espaciado superior para separar del contenido anterior */
+}
+
+#video {
+    width: 400px;                 /* Ancho del video */
+    height: 300px;                /* Alto del video */
+    border: 2px solid #6c757d;   /* Borde del video */
+    border-radius: 8px;          /* Bordes redondeados */
+    margin-bottom:10px; 
+}
+h1, h2 {
+    color: #000000;
+}
+
+#qr-form {
+    background-color: white;
+}
+
+#mensaje {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b39500;
+    color: white;
+}
+
